@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*Navigation bar styling*/
+nav {
+    width: 100%;
+    height: 6em;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 5%;
+    background-color: green;
+}
+nav .heading {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 0.4em 0.8em;
+    border-radius: 0.6em;
+}
+nav ul li a {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+/*Recipes link and image styling*/
+.recipes_link {
+    margin: 2%;
+    background-color: lightblue;
+    border-radius: 1em;
+}
+.recipes_link .recipes_header{
+    padding-top: 0.7em;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.recipes_link ul {
+    padding: 1em 2em 2em 2em;
+    display: flex;
+    list-style: none;
+}
+.recipes_link ul li {
+    padding: 0.5em 0.5em 0em 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    border: 1px solid black;
+    background-color: bisque;
+    text-align: center;
+}
+.recipes_link ul li a {
+    text-decoration: none;
+}
+.recipes_link ul li p {
+    font-size: 1.4em;
+}
+
+
+.text {
+    margin: 2%;
+    padding: 1em 0em 1em;
+    background-color: aquamarine;
+    border-radius: 1em;
+}
+
+.text p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+img {
+    height: 12em;
+    width: 12em;
+    border-radius: 1em;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+    bottom: 0;
+	border-top: 2px solid black;
+	width: 100%;
+	background-color: white;
+}
