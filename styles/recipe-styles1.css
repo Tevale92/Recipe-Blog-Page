@@ -1,0 +1,33 @@
+/*Recipe page styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.recipes-link {
+  margin: 15px;
+  background-color: #f5f5f5;
+  border-radius: 16px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Text and instructions */
+.text {
+  font-size: 19px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.text ul,
+.text ol {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.text ul li,
+.text ol li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
