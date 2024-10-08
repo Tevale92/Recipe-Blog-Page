@@ -14,13 +14,40 @@
         
         <!--navbar-->
         <nav>
-            <div class="heading">Baker's Bliss</div>
+            <img src="../images/logo.png">
             <ul>
                 <li><a href="landing.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><input type="text" placeholder="Search"></li>
             </ul>
         </nav>
 
+        <!--Recipe Request-->
+        <h1 class="request_heading">Recipe Request</h1>
+        <div class="text">
+            <p>If you liked trying our recipes and want us to make new recipes, let us know in our form below.</p><br>
+            <p>We will expirement with your recipe request to find the best version of your recipe for you to enjoy!</p>
+            <form action="landing.html" onsubmit="return thank_user()">
+                <input type="text" placeholder="Your Recipe Request Here" class="form_input">
+                <input type="submit" class="form_submit">
+            </form>
+        </div>
+        <!--Small script for alert message-->
+        <script>
+            function thank_user() {
+                alert("Thank You For Your Submission!");
+                return true;
+            }
+        </script>
+
+        <img src="../images/team.jpg" class="team_img">
+
+        <!--footer-->
+        <div class="footer">
+			<footer>
+				<p><i>&copy; 2024 Baker's Bliss, Made in Collabiration with Louis Chartier, Rima Dagher and David Demers<i></p>
+			</footer>
+		</div>
     </body>
     
 </html>

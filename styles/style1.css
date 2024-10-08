@@ -3,7 +3,6 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-
 body {
     background-color: burlywood;
 }
@@ -33,6 +32,15 @@ nav ul li a {
     font-size: 1.5em;
     font-weight: 500;
     text-decoration: none;
+}
+nav ul li input{
+    font-size: 1em;
+    margin-top: 0.1em;
+    width: 9em;
+    background-color: #FFFBD1;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    padding: 2px;
 }
 
 /*Recipes link and image styling*/
@@ -67,6 +75,11 @@ nav ul li a {
 .recipes_link ul li p {
     font-size: 1.4em;
 }
+.recipes_link img {
+    height: 12em;
+    width: 12em;
+    border-radius: 1em;
+}
 
 /*Main pargraph*/
 .text {
@@ -89,13 +102,6 @@ nav ul li a {
     font-size: 1.5em;
 }
 
-/*Image sizing*/
-img {
-    height: 12em;
-    width: 12em;
-    border-radius: 1em;
-}
-
 /*footer*/
 .footer {
 	position: fixed;
@@ -106,6 +112,39 @@ img {
 	background-color: white;
 }
 
+/*About heading*/
 .about_heading {
     margin: 1.5% 0 2% 5%;
+}
+
+/*Form heading*/
+.request_heading {
+    margin: 1.5% 0 2% 5%;
+}
+
+/*Form Styling*/
+form {
+    display: flex;
+    justify-content: center;
+}
+.form_input {
+    width: 20%;
+    font-size: 1.5em;
+    margin: 1.5% 1% 0.5% 0;
+    border-radius: 7px;
+    border: 2px solid grey;
+}
+.form_submit {
+    font-size: 1.25em;
+    margin: 1.5% 0 0.5% 0;
+    border-radius: 7px;
+    border: 2px solid grey;
+    padding: 0 0.1em 0 0.1em;
+}
+
+.team_img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 4%;
 }
