@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+    background-color: burlywood;
+}
+
 /*Navigation bar styling*/
 nav {
     width: 100%;
@@ -11,12 +15,11 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1.5em 5%;
-    background-color: green;
+    background-color: bisque;
 }
 nav .heading {
     font-size: 1.8em;
     font-weight: 700;
-    color: white;
 }
 nav ul {
     display: flex;
@@ -30,7 +33,6 @@ nav ul li a {
     font-size: 1.5em;
     font-weight: 500;
     text-decoration: none;
-    color: white;
 }
 
 /*Recipes link and image styling*/
@@ -43,7 +45,6 @@ nav ul li a {
     padding-top: 0.7em;
     font-size: 2.5em;
     font-weight: 700;
-    color: white;
     text-align: center;
 }
 .recipes_link ul {
@@ -67,25 +68,35 @@ nav ul li a {
     font-size: 1.4em;
 }
 
-
+/*Main pargraph*/
 .text {
     margin: 2%;
-    padding: 1em 0em 1em;
-    background-color: aquamarine;
+    padding: 1em 0 1em;
+    background-color: lightblue;
     border-radius: 1em;
 }
-
 .text p {
     text-align: center;
     font-size: 2em;
 }
+.text ul {
+    display: flex;
+    list-style: none;
+}
+.text li {
+    margin: auto;
+    padding: 0.5em 0.8em;
+    font-size: 1.5em;
+}
 
+/*Image sizing*/
 img {
     height: 12em;
     width: 12em;
     border-radius: 1em;
 }
 
+/*footer*/
 .footer {
 	position: fixed;
 	left: 0;
@@ -93,4 +104,8 @@ img {
 	border-top: 2px solid black;
 	width: 100%;
 	background-color: white;
+}
+
+.about_heading {
+    margin: 1.5% 0 2% 5%;
 }
