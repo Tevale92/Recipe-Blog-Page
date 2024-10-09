@@ -43,3 +43,9 @@ ul, ol {
 	width: 100%;
 	background-color: white;
 }
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
